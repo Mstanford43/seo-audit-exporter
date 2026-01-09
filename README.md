@@ -1,19 +1,16 @@
-# 🎈 Blank app template
+# SEO Audit Tool
 
-A simple Streamlit app template for you to modify!
+A browser-based SEO auditing tool for Screaming Frog CSV exports.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## How to Use
+1. Crawl a site in Screaming Frog
+2. Export the crawl as CSV
+3. Upload the CSV into this app
+4. Download the Excel SEO audit
 
-### How to run it on your own machine
+## Output
+- Multiple issue-based sheets
+- Summary dashboard
+- Prioritisation-ready format
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Built with Streamlit and Pandas.
